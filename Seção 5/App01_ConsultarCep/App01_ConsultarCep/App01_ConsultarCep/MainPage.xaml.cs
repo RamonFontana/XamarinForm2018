@@ -28,7 +28,7 @@ namespace App01_ConsultarCep
                     Endereco end = ViaCEPServico.BuscarEnderecoViaCEP(cep);
                     if (end != null)
                     {
-                        RESULTADO.Text = string.Format("Endereço: {0},{1} {2}", end.localidade, end.uf, end.logradouro);
+                        RESULTADO.Text = string.Format("Endereço \nEstado: {0} \nUF: {1}\nBairro: {2}\nLogradouro: {3} \nComplemento: {4}", end.localidade, end.uf, end.bairro, end.logradouro, end.complemento);
                     }
                     else
                     {

@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App01_ConsultarCep.Android", "App01_ConsultarCep\App01_ConsultarCep.Android\App01_ConsultarCep.Android.csproj", "{CB34E204-72EC-45F0-9BCA-037F2D1BACAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App01_ConsultaCep.Android", "App01_ConsultarCep\App01_ConsultarCep.Android\App01_ConsultaCep.Android.csproj", "{CB34E204-72EC-45F0-9BCA-037F2D1BACAD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App01_ConsultarCep.iOS", "App01_ConsultarCep\App01_ConsultarCep.iOS\App01_ConsultarCep.iOS.csproj", "{3BB5730D-7B8A-467D-80DA-A2A56470FCF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App01_ConsultarCep", "App01_ConsultarCep\App01_ConsultarCep\App01_ConsultarCep.csproj", "{067B05F7-C672-4032-8C2E-86C135D02BFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App01_ConsultarCep", "App01_ConsultarCep\App01_ConsultarCep\App01_ConsultarCep.csproj", "{067B05F7-C672-4032-8C2E-86C135D02BFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
